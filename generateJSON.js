@@ -6,8 +6,8 @@ var mysql      = require('mysql');
 var fs         = require('fs')
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'outagemap',
-    password : 'app',
+    user     : 'map',
+    password : '***',
     database : 'mapping'
 });
 
